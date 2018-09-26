@@ -1,0 +1,22 @@
+
+<h3 class="hesder">正在进行</h3>
+<ng-content select=".header"></ng-content>
+<ul>
+  <li *ngFor="let item of arr,let i=index;">
+    <input type="checkbox" (click)="change(i)">
+    {{item}}
+    <button (click)="del(i)">删除</button>
+  </li>
+</ul>
+
+
+<h3 >已经完成</h3>
+<ng-content select=".header"></ng-content>
+<ul>
+  <li *ngFor="let item of arr1,let i=index;">
+    <input checked type="checkbox" (click)="change1(i)">
+    {{item}}
+    <!-- <button (click)="del(i)">删除</button> -->
+    <button (click)="del1(i)" >删除</button>
+  </li>
+</ul>
