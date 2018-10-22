@@ -1,0 +1,44 @@
+<ul class="daohang">
+    <li><a [routerLink]='["./weiwancheng"]'>◔未完成</a></li>
+    <li><a [routerLink]='["./yiwancheng"]'>◒已完成</a></li>
+    <li><a [routerLink]='["./yiwanjie"]'>❂已完结</a></li>
+    <li style="margin-left:189px;">
+        <input type="search" style="height:30px;border-radius:5px"
+        placeholder="输入同步课名称搜索">
+    </li>
+    <li  style="margin-top:9px;margin-left:50px;"><button></button></li>
+</ul>
+<div class="right" style="float:left;margin-left:54px;">
+        <router-outlet></router-outlet>
+</div>
+
+
+
+<!-- 1、写输入框标签，绑定键盘事件 -->
+<!-- <app-testdaohang></app-testdaohang> -->
+<!-- <input [(ngModel)]="txt" type="text" (keydown)="getValue($event)">
+<h3>正在进行 <span>{{arr.length-counter}}</span> </h3> -->
+<!-- 2、写入待办事件呈现列表 -->
+<!-- <ul>
+    <ng-container *ngFor="let item of arr;let i = index;">
+        <li *ngIf="!item.done">
+            <input (click)="change(i)" type="checkbox">
+            {{item.title}}
+
+            <button (click)="delete(i)">删除</button>
+        </li>
+    </ng-container>
+</ul> -->
+
+<!-- <h3>已经完成 <span>{{counter}}</span></h3>
+<ul>
+    <ng-container *ngFor="let item of arr;let i = index;">
+        <li *ngIf="item.done">
+            <input checked (click)="change(i)" type="checkbox">
+            {{item.title}} -->
+            <!-- 3、删除按钮绑定点击事件 -->
+            <!-- <button (click)="delete(i)">删除</button>
+        </li>
+    </ng-container>
+</ul> -->
+

@@ -1,0 +1,25 @@
+.test{
+    /* border:2px solid red; */
+    width: 750px;
+    height: 80px;
+    margin-left: -25px;
+    font-size: 14px;
+}
+.test div{
+    width: 750px;
+    border:1px solid rgb(228, 227, 227);
+    height: 40px;
+    line-height: 40px;
+    font-weight:bolder ;
+}
+.test div:last-child{
+    background-color: rgb(241, 241, 241);
+    font-weight:normal ;
+}
+.p{
+    border:2px solid #03b8cf;
+    font-size: 14px;
+    margin-left: 30px;
+    color:#03b8cf;
+}
+

@@ -1,0 +1,52 @@
+.container{
+    width: 800px;
+    /* margin: 0 auto; */
+    margin-left: 30px;
+    margin-top:50px;
+    /* margin-bottom: 10px; */
+    /* border:2px solid red; */
+}
+
+.container li{
+    border:1px solid rgb(212, 212, 212);
+    width:220px;
+    float: left;
+    margin-left:5px;
+    height:280px;
+    padding-top: 5px;
+}
+/* .zheng{
+    width: 1200px;
+    border:2px solid rgb(206, 206, 206);
+    height: 800px;
+} */
+.button{
+    margin-left:120px;
+    background:  #ff6e3d;
+    color:white;
+}
+.img{
+    width: 220px;
+    height: 130px;
+}
+.zi{
+    color: #9e9e9e;
+    font-size: 12px;
+}
+.zi2{
+    color:#808080;
+    font-size: 13px;
+}
+.a{
+    border-bottom:2px solid rgb(226, 226, 226);
+    height: 60px;
+    line-height: 80px;
+    width: 750px;
+    margin-left: 25px;
+    font-size:1em;
+    color:#ff6e3d;
+    float: left;
+}
+.a li{
+    float: left;
+}

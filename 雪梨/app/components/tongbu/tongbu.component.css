@@ -1,0 +1,25 @@
+.container{
+    width: 1100px;
+    /* margin: 0 auto; */
+    margin-left: 200px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.container li{
+    border:1px solid rgb(212, 212, 212);
+    width:230px;
+    float: left;
+    margin-left:5px;
+    height: 230px;
+}
+/* .zheng{
+    width: 1200px;
+    border:2px solid rgb(206, 206, 206);
+    height: 800px;
+} */
+.button{
+    margin-left:120px;
+    background:  #ff6e3d;
+    color:white;
+}

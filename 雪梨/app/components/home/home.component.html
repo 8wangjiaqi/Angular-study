@@ -1,0 +1,23 @@
+<!-- <p>
+  home works!
+</p> -->
+<!-- 我将样式写到行内，方便大家看，大家的样式要写到css文件中去 -->
+<div class="left" style="float:left;">
+  <div class="per"></div>
+  <ul class="zi">
+    <li>0&nbsp;&nbsp;4</li>
+    <li >粉丝&nbsp;&nbsp;&nbsp;关注</li>
+  </ul>
+  <ul class="test">
+    <li><a [routerLink]="['./todolist']">☆任务&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+    <li><a [routerLink]="['./parent']">✽同步课&nbsp;&nbsp;&nbsp;></a></li>
+    <li><a [routerLink]="['./kecheng']">☠课程&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+    <li><a [routerLink]="['./qieshuo']">♫且说&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+    <!-- <li><a [routerLink]="['./tongzhi']">✉通知&nbsp;&nbsp;&nbsp;&nbsp;></a></li> -->
+  </ul>
+</div>
+<!-- <img src="images/taidi.jpg" /> -->
+<div class="right" style="float:left;margin-left:50px;">
+  <div></div>
+  <router-outlet></router-outlet>
+</div>

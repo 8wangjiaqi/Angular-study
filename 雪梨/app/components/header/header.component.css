@@ -1,0 +1,40 @@
+nav{
+    height: 50px;
+    background:#f3f1f1;
+}
+ ul{
+     float: left;
+}
+.logo{
+    margin-left: 180px;
+    margin-top: 0px;
+    height: 40px;
+    /* border:2px solid red; */
+}
+.nav{
+    width: 800px;
+    /* border:2px solid red; */
+    margin: 0 auto;
+    line-height: 50px;
+    margin-left: 230px;
+}
+.nav li{
+    float: left;
+    margin: 0 20px;
+    cursor: pointer;
+    /* width: 20px; */
+}
+.nav input{
+    width: 190px;
+    height: 30px;
+    border-radius:5px;
+}
+ button{
+    width: 30px;
+    height:31px;
+    background-image:url("images/ser.png");
+    background-repeat:no-repeat; 
+    margin-top:12px; 
+    margin-left: -50px;
+    border-radius:0px 5px 5px 0px;
+} 

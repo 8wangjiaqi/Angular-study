@@ -1,0 +1,28 @@
+<!-- <p>
+  qieshuo works!
+</p> -->
+<img src="images/kuang.png" alt="">
+
+<ul class="a">
+    <li style=" color:#ff6e3d;">&nbsp;✌动态</li>
+    <li>&nbsp;☝我的赞</li>
+    <li>&nbsp;✍我的收藏</li>
+    
+</ul>
+<div class="kuang">
+    <ul  *ngFor="let course of courses">
+      <li  class="li">
+        <img src="{{course.images1}}" class="img">
+      </li>
+      <li class="li1">
+          <!-- <img src="images/per.png" class="img"> -->
+          <p >{{course.perName}}</p>
+          <img src="{{course.images}}" class="img1">
+          <p style="margin-top: 30px;color:#9e9e9e;font-size: 14px; ">2018-09-19 11:24</p>
+        </li>
+        <li class="li2">
+            <p style="font-weight:bolder;">{{course.courseName}}</p>          
+            <p style="margin-top:10px;color:#9e9e9e;font-size: 14px; ">{{course.jieshao}}</p>
+        </li>
+    </ul>
+</div>

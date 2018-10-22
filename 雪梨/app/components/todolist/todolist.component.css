@@ -1,0 +1,23 @@
+.daohang{
+    border-bottom:2px solid rgb(219, 219, 219);
+    width:750px;
+    height:60px;
+    margin-left: 25px;
+    line-height: 80px;
+    font-size: 15px;
+    
+}
+.daohang li{
+    float: left;
+    /* border:2px solid blue;  */
+    width: 90px;
+    margin-left: 20px;
+}
+button  {
+    background-image: url(images/ser.png);
+    /* background-repeat:no-repeat; */
+    /* height: 30px;  */
+    height: 30px;
+    width: 32px;
+    border-radius:0px 5px 5px 0px;
+}

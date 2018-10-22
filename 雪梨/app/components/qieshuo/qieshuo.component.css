@@ -1,0 +1,43 @@
+.a{
+    border-bottom:2px solid rgb(226, 226, 226);
+    height: 60px;
+    line-height: 80px;
+    width: 750px;
+    margin-left: 25px;
+    font-size:1em;
+   
+    float: left;
+}
+.a li{
+    float: left;
+}
+.kuang{
+    width:750px;
+    height: 170px;
+    border: 2px solid #d8d8d8;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+.img{
+    border-radius:50px;
+    height: 50px;
+    width: 50px;
+}
+li{
+    float: left;
+    margin-left: 3px;
+}
+.li1{
+    margin-left: 25px;
+    /* margin-top: 20px; */
+}
+.li2{
+    margin-left: 25px;
+    margin-top: 40px;
+    
+}
+.img1{
+    height: 80px;
+    width: 120px;
+    margin-top: 20px;
+}

@@ -1,0 +1,34 @@
+<!-- <h1>这是parent组件</h1>
+<app-input (outValue)="addData($event)"></app-input>
+<app-list [arr]="data" (delIndex)="del($event)" (changeIndex)="change($event)"></app-list> -->
+<ul class="a">
+    &nbsp;我加入的
+</ul>
+<div class="container">
+        <ul>
+          <li *ngFor="let course of courses" class="li">
+            <a [routerLink]="['/tongbu',course.id]">
+              <!-- 路由跳转属性routerLink -->
+                <img src="{{course.images}}" alt="" style="margin-top:10px;">
+                <!-- <li class="p1"> {{course.courseName}}</li> -->
+            </a>
+            </li>
+        </ul>
+        <ul>
+            <li *ngFor="let course of courses" class="li1">
+              <a [routerLink]="['/tongbu',course.id]">
+                <!-- 路由跳转属性routerLink -->
+                  <li class="p1"> {{course.courseName}}</li>
+                  <li class="p0">《JavaScript进阶》是计算机软件及相关专业在H5前端开发方向基础课，
+                      它是为培养应用型人才掌握使用计算机的技能而开设的。
+                      本课程是一门有关JavaScript脚本语言的进阶课程。
+                    </li>
+                  <li class="p2">☺10&nbsp;◕92</li>
+                  <li> <img src="images/fen.png" class="img"></li>
+              </a>
+            </li>
+        </ul>
+     
+                 
+           
+</div>

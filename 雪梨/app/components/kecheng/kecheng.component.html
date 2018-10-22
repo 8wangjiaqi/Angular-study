@@ -1,0 +1,31 @@
+
+
+  <ul class="a">
+    <li>&nbsp;正在学习</li>
+    <li>&nbsp;我看过的</li>
+    <li>&nbsp;我关注的</li>
+    
+</ul>
+
+    <div class="container">
+      *
+      <ul>
+        <li *ngFor="let course of courses">
+          <a [routerLink]="['/tongbu',course.id]">
+            <!-- 路由跳转属性routerLink -->
+            <img src="{{course.images}}" alt="" class="img">
+            <h3>{{course.courseName}}</h3>
+            <div style="margin-top:20px;" class="zi">
+              <span> 课时{{course.jieshao}}</span>
+            </div>
+            <div style="margin-top:28px;" class="zi2">
+              <span> 课时{{course.task}}</span>
+              <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <span>人数{{course.person}}</span>
+            </div>
+    </a>
+        
+      </li>
+    </ul>
+  </div>
+

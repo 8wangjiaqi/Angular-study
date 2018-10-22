@@ -1,0 +1,7 @@
+.list li{
+    float: left;
+}
+.active{
+    color: red;
+    font-size: 20px;
+}
