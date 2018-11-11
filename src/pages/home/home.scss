@@ -1,0 +1,104 @@
+page-home {
+    
+    .sli{
+        height:auto;
+        img{
+            width: 100%;
+        }
+    }
+
+    .ger{
+        // margin-top: -10px;
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 30%;
+            float: left;
+            margin: 5px 0 5px 2%;
+            span{
+                display: block;
+                width: 26px;
+                height: 26px;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                color: red;
+                position: absolute;
+                background: #fff;
+                right: 15px;
+                bottom: 25px;
+            }
+            p{
+                font-size: 25px;
+                font-weight:sold;
+                position: absolute;
+                width: 100%;
+                bottom:10px;
+                margin: 0;
+                color: #fff;
+                height: 120px;
+                line-height: 120px;
+                text-align: center;
+                // background-color:rgba(0,0,0,0.4);
+            }
+        }
+    }
+
+    .subtitle{
+        // padding-top: 20px;
+        letter-spacing:6px;
+    }
+
+    .goods{
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 45%;
+            float: left;
+            margin: 5px 0 5px 3%;
+            span{
+                display: block;
+                width: 26px;
+                height: 26px;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                color: red;
+                position: absolute;
+                background: #fff;
+                right: 15px;
+                bottom: 25px;
+            }
+            p{
+                position: absolute;
+                width: 100%;
+                bottom:4px;
+                margin: 0;
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+            }
+        }
+    }
+
+    ion-scroll{
+        height: 30px;
+        margin-bottom: 50px;
+        white-space: nowrap;
+        span{
+            // float: left;
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+        }
+    }
+}
+
