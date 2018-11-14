@@ -9,10 +9,16 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { AddPage } from '../pages/add/add';
 import { MyPage } from  '../pages/my/my';
+import { LoginPage } from  '../pages/login/login';
+import { Add1Page } from  '../pages/add1/add1';
+// import { ShezhiPage } from  '../pages/shezhi/shezhi';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpClientModule } from '@angular/common/http';
+import { ShezhiPage } from '../pages/shezhi/shezhi';
+import { DengluPage } from '../pages/denglu/denglu';
+import { SearchPage } from '../pages/search/search';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,12 @@ import { HttpClientModule } from '@angular/common/http';
     HomePage,
     TabsPage,
     AddPage,
-    MyPage
+    MyPage,
+    LoginPage,
+    Add1Page,
+    ShezhiPage,
+    DengluPage,
+    SearchPage,
   ],
   imports: [
     BrowserModule,
@@ -40,7 +51,12 @@ import { HttpClientModule } from '@angular/common/http';
     HomePage,
     TabsPage,
     AddPage,
-    MyPage
+    MyPage,
+    LoginPage,
+    Add1Page,
+    ShezhiPage,
+    DengluPage,
+    SearchPage,
   ],
   providers: [
     StatusBar,

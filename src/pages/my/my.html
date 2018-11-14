@@ -10,11 +10,12 @@
     <ion-title>my</ion-title>
   </ion-navbar> -->
 
-      <ion-navbar no-border>
-       <img src="../assets/imgs/banner-03.png" alt="">
+      <ion-navbar no-border text-center >
+    
         <ion-title>
+            <!-- <img src="../assets/imgs/banner-03.png" alt=""> -->
             <img src="../assets/imgs/ren.png" alt="" >
-            <p >土方桔桔桔</p>      
+            <p >土方桔桔桔</p>    
         </ion-title>
         
       </ion-navbar>
@@ -25,20 +26,20 @@
 <ion-content>
      <ul class="ul">  
       <li>我的订单</li>
-      <li class="last">查看全部订单&nbsp;&nbsp;<&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <li class="last">查看全部订单&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
      </ul>
   
      <ion-segment [(ngModel)]="icons" class="navList" color="yel" style="margin-top:-16px;">
-        <ion-segment-button value="open" style="height:100px;line-height: 100px;color:#323232;font-weight: bold;font-size: 15px;" class="first">
+        <ion-segment-button value="open"  class="first" >
           <label><ion-icon name="ios-open-outline"></ion-icon></label>
           我的发布
 
         </ion-segment-button>
-        <ion-segment-button value="star" style="border:0px;height:100px;line-height: 100px;color:#323232;font-weight: bold;font-size: 15px;">
+        <ion-segment-button value="star" >
             <ion-icon name="ios-star-outline"></ion-icon>
           我的收藏 
         </ion-segment-button>
-        <ion-segment-button value="eye" style="border:0px;height:100px;line-height: 100px;color:#323232;font-weight: bold;font-size: 15px;">
+        <ion-segment-button value="eye">
             <ion-icon name="ios-eye-outline"></ion-icon>
 
             家居  
@@ -67,14 +68,15 @@
   
          </ul>
          <ul class="biao">  
+
             <li> 
               <ion-icon name="ios-mail-outline" style="font-size:50px"></ion-icon>
                <p>我的消息</p>
             </li>
-            <li> 
+
+            <li  (click)="goSub(inp)"> 
                 <ion-icon name="ios-settings-outline" style="font-size:50px"></ion-icon>
                  <p>设置</p>
             </li>
-    
            </ul>
 </ion-content>

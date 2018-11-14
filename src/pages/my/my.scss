@@ -1,13 +1,14 @@
 page-my {
     ion-header{
+        // height: 300px !important;
         ion-navbar{
-            img{
-                width: 100%;
-
-            }
+            
             ion-title{
+                // height: 120px;;
+                background-image: url('../assets/imgs/banner-03.png');
                 line-height: 2%;
                 padding: 0px;
+                // margin-top: -150px;
                 img{
                     width:100px;
                     height: 100px;
@@ -17,9 +18,26 @@ page-my {
         }
     }
 }
-    ion-content{
+ion-content{    
 
-        .ul{
+    ion-segment{
+        // margin-top: -4px;
+        .segment-button{
+            height: 80px !important;
+            border-radius: 0px !important;
+            color: #717171 !important;
+            border: 0px !important;
+            line-height: 80px !important;
+            font-size: 15px !important;
+            font-weight: bold !important;
+           
+        }
+        .segment-activated{
+            color:black !important;
+            background: #ffdb2c !important;
+        }
+    }
+    .ul{
             margin-top: 0px;
             background: #eeeeee;
             height: 50px;

@@ -1,11 +1,64 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
+  <!-- <ion-navbar> -->
+    <!-- <ion-title>
       About
-    </ion-title>
-  </ion-navbar>
+    </ion-title> -->
+    <!-- <ion-item > -->
+      <ion-input type="search" placeholder="双十二特惠好物超低价" (click)="goSub(inp)"></ion-input>
+  <!-- </ion-item> -->
+<!-- </ion-navbar> -->
 </ion-header>
+<ion-content >
+  <!-- <ion-item >
+    <ion-input type="search" placeholder="双十二特惠好物超低价"></ion-input>
+</ion-item> -->
+<img src="../assets/imgs/banner-04.png">
+   <ion-segment [(ngModel)]="icons" class="navList" color="yel">
+     
+      <ion-segment-button value="camera" class="first" style="font-size:18px;line-height: 50px;">
+        客厅
+      </ion-segment-button>
+      <ion-segment-button value="bookmark" style="font-size:18px;line-height: 50px;">
+        卧室  
+      </ion-segment-button>
+      <ion-segment-button value="star" style="font-size:18px;line-height: 50px;">
+       餐厅
+      </ion-segment-button>
+      <ion-segment-button value="clock" style="font-size:18px;line-height: 50px;">
+        书房
+      </ion-segment-button>
+      <ion-segment-button value="add" style="font-size:18px;line-height: 50px;">
+        门厅
+      </ion-segment-button>
+ </ion-segment>
 
-<ion-content padding>
+ <div class="subtitle">
+    <h4 text-center>——&nbsp;&nbsp;沙发&nbsp;&nbsp;——</h4>
+</div>
+
+<ul class="goods">
+  <li>
+    <img src="assets/imgs/li-21.png" alt="">
+  </li>
+  <li>
+    <img src="assets/imgs/li-22.png" alt="">
+    <!-- <p>——北欧原木色—— </p>
+    <span><ion-icon name="md-star-half"></ion-icon></span> -->
+  </li>
+  <li>
+    <img src="assets/imgs/li-23.png" alt="">
+    <!-- <p>——北欧原木色—— </p>
+    <span><ion-icon name="md-star-half"></ion-icon></span> -->
+  </li>
+  <li>
+    <img src="assets/imgs/li-24.png" alt="">
+  </li> 
+</ul>
+
+<div class="subtitle">
+    <p text-right style="color:#666666">查看全部商品&nbsp;&nbsp;>></p>
+    <h4 text-center >——&nbsp;&nbsp;电视柜&nbsp;&nbsp;——</h4>
+ 
+</div>
 
 </ion-content>

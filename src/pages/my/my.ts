@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ShezhiPage } from '../shezhi/shezhi';
 
 /**
  * Generated class for the MyPage page.
@@ -14,8 +15,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'my.html',
 })
 export class MyPage {
-
+  
+  icons:string="open";
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  goSub(){
+    this.navCtrl.push(ShezhiPage);
   }
 
   ionViewDidLoad() {
