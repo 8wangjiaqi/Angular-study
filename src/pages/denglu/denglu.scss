@@ -1,0 +1,45 @@
+page-denglu {
+    ion-content{
+        background: url(../assets/imgs/bg1.png);
+        background-size: cover;
+        img{
+            margin-top: 50px ;
+            margin-left:35%;
+        }
+        .box{
+            margin-top: 30px;
+            ion-item{
+                background: transparent;
+                border:2px solid 	#C0C0C0;
+                margin-top: 15px;
+                ion-icon{
+                    color:#d1dad8;
+                    // margin-left: -10px;
+                }
+                // input placeholder属性 
+                input::-webkit-input-placeholder {
+                    color: #c4cbc9;
+                    font-size: 17px;
+                }
+                button{
+                    color:#afb4a5;
+                }
+                // input-wrapper{
+                //     border-bottom: 2px solid pink !important;
+                //     ion-input{
+                //         border-bottom: 2px solid pink !important;
+                //     }
+                // }
+            }
+            button{
+                margin-top: 50px;
+                color: #fff;
+            }
+            p{
+                color: #fff!important;
+                text-align: center;
+            }
+        }
+        
+    }
+}

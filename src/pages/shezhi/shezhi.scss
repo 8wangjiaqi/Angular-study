@@ -1,0 +1,32 @@
+page-shezhi {
+//    margin-left: 0px;
+    .navList{
+        // border: 2px solid pink;
+        color: #565656;
+        li{
+            border-bottom: 1px solid #eeeeee;
+            height: 70px;
+            line-height: 70px;
+            margin-left: -25px;
+            font-size: 19px;
+            // p{
+            //     color:#666666;
+            // }
+        }
+    }
+    .exit{
+        background: #ffdb2c;
+        // border: 2px solid pink;
+        text-align: center;
+        li{
+            // border: 1px solid #eeeeee;
+            height: 60px;
+            line-height: 60px;
+            margin-left: -30px;
+            margin-top: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+}

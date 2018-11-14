@@ -1,0 +1,35 @@
+page-add1 {
+    ion-content{
+        background: #ffdb2c !important;
+        // !important加权重,干掉默认的白色
+        .navList{
+            margin-left:-30px ;
+            margin-top: 100px;
+            // text-align: center;
+            text-align: center;
+            li{
+                // border: 2px solid black;
+                float: left;
+                width: 50%;
+                text-align: center;
+                .p{
+                    margin: 10px auto;
+                    background: white;
+                    width: 130px;
+                    height:130px;
+                    border-radius: 50%;
+                    line-height: 150px;
+                    
+                }
+                ion-icon{
+                    color: black;
+                    font-size:50px;
+                }
+                .zi2{
+                    color:#706013;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

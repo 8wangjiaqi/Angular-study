@@ -1,0 +1,30 @@
+page-login {
+    ion-content{
+        background: url(../assets/imgs/bg.png);
+        background-size: cover;
+        .box{
+            ion-item{
+                background: transparent;
+                ion-icon{
+                    color:#d1dad8;
+                }
+                // input placeholder属性 
+                input::-webkit-input-placeholder {
+                    color: #c4cbc9;
+                    font-size: 17px;
+                }
+                button{
+                    color:#afb4a5;
+                }
+            }
+            button{
+                margin-top: 50px;
+                color: #fff;
+            }
+            p{
+                color: #fff!important;
+                text-align: center;
+            }
+        }
+    }
+}
